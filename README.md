@@ -1,8 +1,31 @@
 # week-5-resolution-hardware
-May 27 - PCB Keychain Design
-I designed a PCB keychain in EasyEDA based on Futaba from Persona 5 I spent around 2 hours finding the right artwork and figuring out how to split it into layers properly I tried using Photopea to separate the outline, color, and silhouette layers which took way longer than I expected since I kept messing up the selections and having to redo them I also had struggles making the keychain hole, I was using the cricle tool or something like that  but couldn't figure out why it wasn't working the way I wanted used mill instead of mm, kept placing it wrong and the sizing was off then the circle kept refusing to mearge and couldnt figuire it out and then realized  I needed to select the whole outline first before placing the hole inside  and once I did that it worked, i aslo had troubles with safari not letting me mearge and kept hiding the menu so i had to switch to chrome everything else was ok and went smoothly
-the keychain
+# Futaba Keychain
 
-<img width="445" height="464" alt="Screenshot 2026-05-28 at 12 48 44 AM" src="https://github.com/user-attachments/assets/7b88d87b-2994-4e1a-b388-ee30fc687443" />
+A PCB keychain designed in EasyEDA based on Futaba from Persona 5
+using multicolor silkscreen for the artwork
 
-Time Spent: 2 Hours
+PCB Render: <img width="537" height="560" alt="Screenshot 2026-05-29 at 7 31 54 PM" src="https://github.com/user-attachments/assets/a6ad49da-6c99-435f-b2e2-af8f41dfa5ce" />
+
+
+Demo Link:
+
+
+
+## How it was made
+
+I designed the keychain in EasyEDA using Futaba from Persona 5 as the 
+artwork I used Photopea to separate the image into layers for the 
+color and board outline then imported each layer separately 
+into EasyEDA
+
+For the keychain hole I used the slot tool  I ran into issues at first 
+because I was using mil instead of mm for units and the circle kept 
+refusing to merge Eventually figured out I needed to select the whole 
+outline first before placing the hole inside it Also had to switch from 
+Safari to Chrome because Safari kept hiding the merge menu
+
+
+
+## Time Spent: 2 Hours
+
+
